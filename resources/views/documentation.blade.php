@@ -19,11 +19,105 @@
         </div>
     </section>
 
-    {{-- Certificates Gallery --}}
+    {{-- Certificates Section (Updated) --}}
     <section class="section">
         <div class="container">
-            <h2 class="section-title reveal">Certificates & Documentation</h2>
-            <p class="section-subtitle reveal">Full compliance with Indonesian export regulations</p>
+            <h2 class="section-title reveal">Legal Certificates & Documentation</h2>
+            <p class="section-subtitle reveal">Official company registrations and compliance documents</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="showcase-card reveal">
+                        <div class="card-body p-0" style="overflow: hidden; border-radius: 18px;">
+                            <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
+                                <img src="{{ asset('dokumentasi/Business Identification Number.png') }}" 
+                                     class="position-absolute top-0 start-0 w-100 h-100" 
+                                     alt="Business Identification Number (NIB)"
+                                     style="object-fit: cover; transition: transform 0.4s ease;">
+                            </div>
+                            <div class="p-4">
+                                <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
+                                    Business Identification Number
+                                </h5>
+                                <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
+                                    Official NIB for CV Vlora Nusantara
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="showcase-card reveal">
+                        <div class="card-body p-0" style="overflow: hidden; border-radius: 18px;">
+                            <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
+                                <img src="{{ asset('dokumentasi/Certificate of Registration.png') }}" 
+                                     class="position-absolute top-0 start-0 w-100 h-100" 
+                                     alt="Tax Registration Certificate (NPWP)"
+                                     style="object-fit: cover; transition: transform 0.4s ease;">
+                            </div>
+                            <div class="p-4">
+                                <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
+                                    Tax Registration Certificate
+                                </h5>
+                                <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
+                                    NPWP registration for CV Vlora Nusantara
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="showcase-card reveal">
+                        <div class="card-body p-0" style="overflow: hidden; border-radius: 18px;">
+                            <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
+                                <img src="{{ asset('dokumentasi/Certificate of Corporate Registration.png') }}" 
+                                     class="position-absolute top-0 start-0 w-100 h-100" 
+                                     alt="Corporate Registration Certificate (AHU)"
+                                     style="object-fit: cover; transition: transform 0.4s ease;">
+                            </div>
+                            <div class="p-4">
+                                <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
+                                    Corporate Registration
+                                </h5>
+                                <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
+                                    Ministry of Law & Human Rights registration
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="showcase-card reveal">
+                        <div class="card-body p-0" style="overflow: hidden; border-radius: 18px;">
+                            <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
+                                <img src="{{ asset('dokumentasi/Health Safety Environment.png') }}" 
+                                     class="position-absolute top-0 start-0 w-100 h-100" 
+                                     alt="Health, Safety & Environmental Statement (K3L)"
+                                     style="object-fit: cover; transition: transform 0.4s ease;">
+                            </div>
+                            <div class="p-4">
+                                <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
+                                    Health, Safety & Environment
+                                </h5>
+                                <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
+                                    K3L commitment and compliance statement
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Certificates Photo Gallery (Previous Photos) --}}
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title reveal">Certificates Gallery</h2>
+            <p class="section-subtitle reveal">Additional certificate views and supporting photos</p>
             
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -32,60 +126,57 @@
                             <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
                                 <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25 (1).jpeg') }}" 
                                      class="position-absolute top-0 start-0 w-100 h-100" 
-                                     alt="Certificate 1"
+                                     alt="Certificate gallery photo 1"
                                      style="object-fit: cover; transition: transform 0.4s ease;">
-                                <style>
-                                    .showcase-card:hover img {
-                                        transform: scale(1.05);
-                                    }
-                                </style>
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
-                                    Export Certificate
+                                    Certificate View 1
                                 </h5>
                                 <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
-                                    Official export documentation
+                                    Additional perspective of export documentation
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-4">
                     <div class="showcase-card reveal">
                         <div class="card-body p-0" style="overflow: hidden; border-radius: 18px;">
                             <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
                                 <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25.jpeg') }}" 
                                      class="position-absolute top-0 start-0 w-100 h-100" 
-                                     alt="Certificate 2"
+                                     alt="Certificate gallery photo 2"
                                      style="object-fit: cover; transition: transform 0.4s ease;">
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
-                                    Quality Certificate
+                                    Certificate View 2
                                 </h5>
                                 <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
-                                    Laboratory testing documentation
+                                    Supporting quality and testing documentation
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-4">
                     <div class="showcase-card reveal">
                         <div class="card-body p-0" style="overflow: hidden; border-radius: 18px;">
                             <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
                                 <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.30.jpeg') }}" 
                                      class="position-absolute top-0 start-0 w-100 h-100" 
-                                     alt="Certificate 3"
+                                     alt="Certificate gallery photo 3"
                                      style="object-fit: cover; transition: transform 0.4s ease;">
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
-                                    Compliance Certificate
+                                    Certificate View 3
                                 </h5>
                                 <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
-                                    Regulatory compliance documentation
+                                    Regulatory compliance documentation details
                                 </p>
                             </div>
                         </div>
