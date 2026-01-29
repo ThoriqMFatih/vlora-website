@@ -112,6 +112,40 @@
             font-weight: 500;
         }
 
+        /* Mobile navbar */
+        @media (max-width: 991.98px) {
+            .navbar {
+                padding: 8px 0;
+            }
+
+            .navbar-brand img {
+                height: 40px;
+                width: auto;
+            }
+
+            .navbar-collapse {
+                background-color: rgba(255, 255, 255, 0.96);
+                border-radius: 18px;
+                box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+                padding: 12px 8px;
+                margin-top: 10px;
+            }
+
+            .navbar-nav {
+                gap: 4px;
+            }
+
+            .navbar-nav .nav-link {
+                padding: 10px 14px !important;
+                font-size: 15px;
+                border-radius: 12px;
+            }
+
+            .navbar-nav .nav-link.active {
+                background-color: rgba(128, 0, 0, 0.08);
+            }
+        }
+
         /* Hero Sections */
         .hero-section {
             min-height: 90vh;
@@ -394,8 +428,72 @@
                 padding: 60px 0;
             }
 
+            .hero-title {
+                font-size: clamp(32px, 9vw, 44px);
+                margin-bottom: 16px;
+            }
+
+            .hero-subtitle {
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            .hero-description {
+                font-size: 15px;
+                margin-bottom: 28px;
+            }
+
+            .section-title {
+                font-size: clamp(26px, 7vw, 34px);
+            }
+
+            .section-subtitle {
+                font-size: 15px;
+                margin-bottom: 40px;
+            }
+
             .showcase-card-body {
-                padding: 32px 24px;
+                padding: 24px 18px;
+            }
+
+            .showcase-title {
+                font-size: 20px;
+            }
+
+            .showcase-description {
+                font-size: 15px;
+            }
+
+            .feature-item {
+                padding: 24px 16px;
+            }
+
+            .feature-title {
+                font-size: 18px;
+            }
+
+            .feature-description {
+                font-size: 15px;
+            }
+
+            .btn,
+            .btn-primary,
+            .btn-outline-primary {
+                font-size: 15px;
+                padding: 10px 22px;
+            }
+
+            footer {
+                padding: 40px 0 30px;
+                margin-top: 60px;
+            }
+
+            footer ul li a {
+                font-size: 13px;
+            }
+
+            .footer-bottom {
+                font-size: 13px;
             }
 
             .section {
@@ -436,8 +534,8 @@
                     <span>Vlora Nusantara</span>
                 @endif
             </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
-                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
