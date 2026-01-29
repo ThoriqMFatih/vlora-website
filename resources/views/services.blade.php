@@ -26,59 +26,86 @@
             <p class="section-subtitle reveal">Sourced with excellence, exported with care</p>
             
             <div class="row g-5 mb-5">
+                {{-- White Tea --}}
                 <div class="col-lg-6">
-                    <div class="showcase-card reveal">
-                        <div class="showcase-card-body">
-                            <div class="showcase-icon">
-                                <i class="fas fa-leaf"></i>
+                    <div class="showcase-card reveal h-100">
+                        <div class="row g-0 h-100">
+                            <div class="col-md-5">
+                                <div style="position: relative; overflow: hidden; padding-top: 100%; border-radius: 18px 0 0 18px; background: var(--bg-secondary);">
+                                    <img src="{{ asset('dokumentasi/White Tea.png') }}"
+                                         alt="Premium White Tea"
+                                         class="position-absolute top-0 start-0 w-100 h-100"
+                                         style="object-fit: cover; transition: transform 0.4s ease;">
+                                </div>
                             </div>
-                            <h3 class="showcase-title">White Tea</h3>
-                            <p class="showcase-description">
-                                Premium White Tea varieties including Silver Needle & Peony, sourced from 
-                                trusted tea plantations in West Java with rigorous quality control and 
-                                laboratory testing.
-                            </p>
-                            <div class="mt-4">
-                                <h5 class="mb-3" style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Varieties:</h5>
-                                <ul style="list-style: none; padding: 0;">
-                                    <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
-                                        <i class="fas fa-check text-success me-2"></i> Silver Needle
-                                    </li>
-                                    <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
-                                        <i class="fas fa-check text-success me-2"></i> Peony
-                                    </li>
-                                    <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
-                                        <i class="fas fa-check text-success me-2"></i> Laboratory Tested
-                                    </li>
-                                </ul>
+                            <div class="col-md-7">
+                                <div class="showcase-card-body h-100 d-flex flex-column">
+                                    <div class="showcase-icon">
+                                        <i class="fas fa-leaf"></i>
+                                    </div>
+                                    <h3 class="showcase-title">White Tea</h3>
+                                    <p class="showcase-description">
+                                        Premium White Tea varieties including Silver Needle &amp; Peony, sourced from 
+                                        trusted tea plantations in West Java with rigorous quality control and 
+                                        laboratory testing.
+                                    </p>
+                                    <div class="mt-4 mt-auto">
+                                        <h5 class="mb-3" style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Varieties:</h5>
+                                        <ul style="list-style: none; padding: 0;">
+                                            <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
+                                                <i class="fas fa-check text-success me-2"></i> Silver Needle
+                                            </li>
+                                            <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
+                                                <i class="fas fa-check text-success me-2"></i> Peony
+                                            </li>
+                                            <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
+                                                <i class="fas fa-check text-success me-2"></i> Laboratory Tested
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                {{-- Green Coffee Beans --}}
                 <div class="col-lg-6">
-                    <div class="showcase-card reveal">
-                        <div class="showcase-card-body">
-                            <div class="showcase-icon">
-                                <i class="fas fa-coffee"></i>
+                    <div class="showcase-card reveal h-100">
+                        <div class="row g-0 h-100">
+                            <div class="col-md-5 order-md-2">
+                                <div style="position: relative; overflow: hidden; padding-top: 100%; border-radius: 0 18px 18px 0; background: var(--bg-secondary);">
+                                    <img src="{{ asset('dokumentasi/Green Bean Coffee.png') }}"
+                                         alt="Premium Green Coffee Beans"
+                                         class="position-absolute top-0 start-0 w-100 h-100"
+                                         style="object-fit: cover; transition: transform 0.4s ease;">
+                                </div>
                             </div>
-                            <h3 class="showcase-title">Green Coffee Beans</h3>
-                            <p class="showcase-description">
-                                High-quality Green Coffee Beans with full export compliance, meeting 
-                                international quality standards and specifications agreed upon by buyers.
-                            </p>
-                            <div class="mt-4">
-                                <h5 class="mb-3" style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Features:</h5>
-                                <ul style="list-style: none; padding: 0;">
-                                    <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
-                                        <i class="fas fa-check text-success me-2"></i> Premium Quality
-                                    </li>
-                                    <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
-                                        <i class="fas fa-check text-success me-2"></i> Export Ready
-                                    </li>
-                                    <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
-                                        <i class="fas fa-check text-success me-2"></i> Fully Certified
-                                    </li>
-                                </ul>
+                            <div class="col-md-7 order-md-1">
+                                <div class="showcase-card-body h-100 d-flex flex-column">
+                                    <div class="showcase-icon">
+                                        <i class="fas fa-coffee"></i>
+                                    </div>
+                                    <h3 class="showcase-title">Green Coffee Beans</h3>
+                                    <p class="showcase-description">
+                                        High-quality Green Coffee Beans with full export compliance, meeting 
+                                        international quality standards and specifications agreed upon by buyers.
+                                    </p>
+                                    <div class="mt-4 mt-auto">
+                                        <h5 class="mb-3" style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Features:</h5>
+                                        <ul style="list-style: none; padding: 0;">
+                                            <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
+                                                <i class="fas fa-check text-success me-2"></i> Premium Quality
+                                            </li>
+                                            <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
+                                                <i class="fas fa-check text-success me-2"></i> Export Ready
+                                            </li>
+                                            <li class="mb-2" style="font-size: 17px; color: var(--text-secondary);">
+                                                <i class="fas fa-check text-success me-2"></i> Fully Certified
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

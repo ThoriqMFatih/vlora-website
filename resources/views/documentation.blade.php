@@ -116,8 +116,8 @@
     {{-- Certificates Photo Gallery (Previous Photos) --}}
     <section class="section section-alt">
         <div class="container">
-            <h2 class="section-title reveal">Certificates Gallery</h2>
-            <p class="section-subtitle reveal">Additional certificate views and supporting photos</p>
+            <h2 class="section-title reveal">Gallery</h2>
+            <p class="section-subtitle reveal">Gallery and supporting photos</p>
             
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
@@ -126,12 +126,12 @@
                             <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
                                 <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25 (1).jpeg') }}" 
                                      class="position-absolute top-0 start-0 w-100 h-100" 
-                                     alt="Certificate gallery photo 1"
+                                     alt="gallery photo 1"
                                      style="object-fit: cover; transition: transform 0.4s ease;">
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
-                                    Certificate View 1
+                                    Supplier Visit
                                 </h5>
                                 <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
                                     Additional perspective of export documentation
@@ -147,15 +147,15 @@
                             <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
                                 <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25.jpeg') }}" 
                                      class="position-absolute top-0 start-0 w-100 h-100" 
-                                     alt="Certificate gallery photo 2"
+                                     alt="gallery photo 2"
                                      style="object-fit: cover; transition: transform 0.4s ease;">
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
-                                    Certificate View 2
+                                    Supplier Documentation
                                 </h5>
                                 <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
-                                    Supporting quality and testing documentation
+                                    Supporting documentation
                                 </p>
                             </div>
                         </div>
@@ -168,15 +168,15 @@
                             <div style="position: relative; overflow: hidden; padding-top: 75%; background: var(--bg-secondary);">
                                 <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.30.jpeg') }}" 
                                      class="position-absolute top-0 start-0 w-100 h-100" 
-                                     alt="Certificate gallery photo 3"
+                                     alt="gallery photo 3"
                                      style="object-fit: cover; transition: transform 0.4s ease;">
                             </div>
                             <div class="p-4">
                                 <h5 class="mb-2" style="font-size: 19px; font-weight: 600; color: var(--text-primary);">
-                                    Certificate View 3
+                                    Identity
                                 </h5>
                                 <p class="mb-0" style="font-size: 15px; color: var(--text-secondary);">
-                                    Regulatory compliance documentation details
+                                    Our Logo
                                 </p>
                             </div>
                         </div>
