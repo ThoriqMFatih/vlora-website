@@ -51,10 +51,11 @@ class ContactController extends Controller
             ]);
 
             return back()->with('success', 'Terima kasih! Pesan Anda telah berhasil dikirim. Kami akan menghubungi Anda segera.');
-        } catch (\Exception $e) {
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Contact submit error: ' . $e->getMessage());
             return back()
                 ->withInput()
-                ->with('error', 'Maaf, terjadi kesalahan saat mengirim pesan. Silakan coba lagi.');
+                ->with('error', 'Gagal menyimpan: ' . $e->getMessage());
         }
     }
 }
