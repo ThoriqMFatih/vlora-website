@@ -39,4 +39,40 @@ putenv('APP_PACKAGES_CACHE=/tmp/bootstrap/cache/packages.php');
 putenv('APP_ROUTES_CACHE=/tmp/bootstrap/cache/routes.php');
 putenv('APP_SERVICES_CACHE=/tmp/bootstrap/cache/services.php');
 
+if (!getenv('DB_CONNECTION')) {
+    putenv('DB_CONNECTION=pgsql');
+    $_ENV['DB_CONNECTION'] = 'pgsql';
+    $_SERVER['DB_CONNECTION'] = 'pgsql';
+}
+
+if (!getenv('DB_HOST')) {
+    putenv('DB_HOST=db.mhxaoynykyqnxwqmrqxc.supabase.co');
+    $_ENV['DB_HOST'] = 'db.mhxaoynykyqnxwqmrqxc.supabase.co';
+    $_SERVER['DB_HOST'] = 'db.mhxaoynykyqnxwqmrqxc.supabase.co';
+}
+
+if (!getenv('DB_PORT')) {
+    putenv('DB_PORT=5432');
+    $_ENV['DB_PORT'] = '5432';
+    $_SERVER['DB_PORT'] = '5432';
+}
+
+if (!getenv('DB_DATABASE')) {
+    putenv('DB_DATABASE=postgres');
+    $_ENV['DB_DATABASE'] = 'postgres';
+    $_SERVER['DB_DATABASE'] = 'postgres';
+}
+
+if (!getenv('DB_USERNAME')) {
+    putenv('DB_USERNAME=postgres');
+    $_ENV['DB_USERNAME'] = 'postgres';
+    $_SERVER['DB_USERNAME'] = 'postgres';
+}
+
+if (!getenv('DB_PASSWORD')) {
+    putenv('DB_PASSWORD=Th0r1p14!3009');
+    $_ENV['DB_PASSWORD'] = 'Th0r1p14!3009';
+    $_SERVER['DB_PASSWORD'] = 'Th0r1p14!3009';
+}
+
 require __DIR__ . '/../public/index.php';

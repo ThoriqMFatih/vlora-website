@@ -88,8 +88,34 @@
             display: none;
         }
 
+        .navbar-collapse.collapse,
+        .navbar-collapse {
+            visibility: visible !important;
+        }
+
+        @media (min-width: 992px) {
+            .navbar-expand-lg .navbar-collapse {
+                display: flex !important;
+                visibility: visible !important;
+                flex-basis: auto !important;
+            }
+            .navbar-expand-lg .navbar-nav {
+                display: flex !important;
+                flex-direction: row !important;
+                visibility: visible !important;
+            }
+        }
+
         .navbar-nav {
+            display: flex !important;
             gap: 8px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-nav .nav-item {
+            display: inline-block;
         }
 
         .navbar-nav .nav-link {
@@ -100,6 +126,7 @@
             transition: all 0.2s ease;
             position: relative;
             letter-spacing: -0.1px;
+            display: block;
         }
 
         .navbar-nav .nav-link:hover {
