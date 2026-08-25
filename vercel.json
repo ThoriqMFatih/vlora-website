@@ -32,7 +32,7 @@
   ],
   "env": {
     "APP_ENV": "production",
-    "APP_DEBUG": "true",
+    "APP_DEBUG": "false",
     "APP_KEY": "base64:MgomZNvUtLNi3VrGIOGMTU9BMM2N41TNKlPRgDOXzOI=",
     "APP_MAINTENANCE_DRIVER": "file",
     "APP_CONFIG_CACHE": "/tmp/bootstrap/cache/config.php",
@@ -46,11 +46,11 @@
     "SESSION_LIFETIME": "120",
     "LOG_CHANNEL": "stderr",
     "DB_CONNECTION": "pgsql",
-    "DB_HOST": "db.mhxaoynykyqnxwqmrqxc.supabase.co",
-    "DB_PORT": "5432",
+    "DB_HOST": "aws-0-ap-south-1.pooler.supabase.com",
+    "DB_PORT": "6543",
     "DB_DATABASE": "postgres",
-    "DB_USERNAME": "postgres",
+    "DB_USERNAME": "postgres.mhxaoynykyqnxwqmrqxc",
     "DB_PASSWORD": "Th0r1p14!3009",
-    "DB_SSLMODE": "prefer"
+    "DB_SSLMODE": "require"
   }
 }

@@ -25,10 +25,6 @@ putenv('APP_STORAGE=/tmp/storage');
 $_ENV['APP_STORAGE'] = '/tmp/storage';
 $_SERVER['APP_STORAGE'] = '/tmp/storage';
 
-putenv('APP_DEBUG=true');
-$_ENV['APP_DEBUG'] = 'true';
-$_SERVER['APP_DEBUG'] = 'true';
-
 putenv('APP_MAINTENANCE_DRIVER=file');
 $_ENV['APP_MAINTENANCE_DRIVER'] = 'file';
 $_SERVER['APP_MAINTENANCE_DRIVER'] = 'file';
@@ -54,15 +50,15 @@ if (!getenv('DB_CONNECTION')) {
 }
 
 if (!getenv('DB_HOST')) {
-    putenv('DB_HOST=db.mhxaoynykyqnxwqmrqxc.supabase.co');
-    $_ENV['DB_HOST'] = 'db.mhxaoynykyqnxwqmrqxc.supabase.co';
-    $_SERVER['DB_HOST'] = 'db.mhxaoynykyqnxwqmrqxc.supabase.co';
+    putenv('DB_HOST=aws-0-ap-south-1.pooler.supabase.com');
+    $_ENV['DB_HOST'] = 'aws-0-ap-south-1.pooler.supabase.com';
+    $_SERVER['DB_HOST'] = 'aws-0-ap-south-1.pooler.supabase.com';
 }
 
 if (!getenv('DB_PORT')) {
-    putenv('DB_PORT=5432');
-    $_ENV['DB_PORT'] = '5432';
-    $_SERVER['DB_PORT'] = '5432';
+    putenv('DB_PORT=6543');
+    $_ENV['DB_PORT'] = '6543';
+    $_SERVER['DB_PORT'] = '6543';
 }
 
 if (!getenv('DB_DATABASE')) {
@@ -72,15 +68,21 @@ if (!getenv('DB_DATABASE')) {
 }
 
 if (!getenv('DB_USERNAME')) {
-    putenv('DB_USERNAME=postgres');
-    $_ENV['DB_USERNAME'] = 'postgres';
-    $_SERVER['DB_USERNAME'] = 'postgres';
+    putenv('DB_USERNAME=postgres.mhxaoynykyqnxwqmrqxc');
+    $_ENV['DB_USERNAME'] = 'postgres.mhxaoynykyqnxwqmrqxc';
+    $_SERVER['DB_USERNAME'] = 'postgres.mhxaoynykyqnxwqmrqxc';
 }
 
 if (!getenv('DB_PASSWORD')) {
     putenv('DB_PASSWORD=Th0r1p14!3009');
     $_ENV['DB_PASSWORD'] = 'Th0r1p14!3009';
     $_SERVER['DB_PASSWORD'] = 'Th0r1p14!3009';
+}
+
+if (!getenv('DB_SSLMODE')) {
+    putenv('DB_SSLMODE=require');
+    $_ENV['DB_SSLMODE'] = 'require';
+    $_SERVER['DB_SSLMODE'] = 'require';
 }
 
 require __DIR__ . '/../public/index.php';
