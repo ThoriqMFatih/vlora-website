@@ -11,3 +11,8 @@ phpunit.xml
 README.md
 STRUKTUR_PROJECT.md
 Dokumentasi
+bootstrap/cache/*.php
+storage/logs/*.log
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
