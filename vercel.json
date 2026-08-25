@@ -32,7 +32,7 @@
   ],
   "env": {
     "APP_ENV": "production",
-    "APP_DEBUG": "false",
+    "APP_DEBUG": "true",
     "APP_KEY": "base64:MgomZNvUtLNi3VrGIOGMTU9BMM2N41TNKlPRgDOXzOI=",
     "APP_MAINTENANCE_DRIVER": "file",
     "APP_CONFIG_CACHE": "/tmp/bootstrap/cache/config.php",
@@ -42,7 +42,7 @@
     "APP_SERVICES_CACHE": "/tmp/bootstrap/cache/services.php",
     "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
     "CACHE_STORE": "array",
-    "SESSION_DRIVER": "database",
+    "SESSION_DRIVER": "file",
     "SESSION_LIFETIME": "120",
     "LOG_CHANNEL": "stderr",
     "DB_CONNECTION": "pgsql",
@@ -50,6 +50,7 @@
     "DB_PORT": "5432",
     "DB_DATABASE": "postgres",
     "DB_USERNAME": "postgres",
-    "DB_PASSWORD": "Th0r1p14!3009"
+    "DB_PASSWORD": "Th0r1p14!3009",
+    "DB_SSLMODE": "prefer"
   }
 }
