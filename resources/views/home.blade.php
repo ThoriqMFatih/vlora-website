@@ -22,10 +22,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="hero-image">
-                        @if(file_exists(public_path('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25 (1).jpeg')))
-                            <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25 (1).jpeg') }}" 
-                                 alt="Vlora Nusantara">
-                        @endif
+                        <img src="{{ asset('dokumentasi/WhatsApp Image 2026-01-28 at 09.17.25 (1).jpeg') }}" 
+                             alt="Vlora Nusantara">
                     </div>
                 </div>
             </div>

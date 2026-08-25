@@ -517,22 +517,18 @@
     </style>
 
     {{-- Laravel assets --}}
-    @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @endif
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     {{-- Minimalist Navbar --}}
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNavbar">
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">
-                @if(file_exists(public_path('dokumentasi/photo_2026-01-28_10-23-22 - Edited.png')))
-                    <img src="{{ asset('dokumentasi/photo_2026-01-28_10-23-22 - Edited.png') }}" 
-                         alt="CV. Vlora Nusantara"
-                         style="height: 50px; width: 55px;">
-                @else
-                    <span>Vlora Nusantara</span>
-                @endif
+                <img src="{{ asset('dokumentasi/photo_2026-01-28_10-23-22 - Edited.png') }}" 
+                     alt="CV. Vlora Nusantara"
+                     style="height: 50px; width: 55px;"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span style="display: none;">Vlora Nusantara</span>
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

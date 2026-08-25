@@ -10,7 +10,7 @@ phpunit.xml
 .gitignore
 README.md
 STRUKTUR_PROJECT.md
-Dokumentasi
+/Dokumentasi
 bootstrap/cache/*.php
 storage/logs/*.log
 storage/framework/cache/*

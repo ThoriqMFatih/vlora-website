@@ -38,14 +38,12 @@
                     </p>
                 </div>
                 <div class="col-lg-6 reveal">
-                    @if(file_exists(public_path('dokumentasi/LOGO VLORA.png')))
-                        <div class="text-center">
-                            <img src="{{ asset('dokumentasi/LOGO VLORA.png') }}" 
-                                 alt="Vlora Nusantara Logo" 
-                                 class="img-fluid"
-                                 style="max-width: 400px; height: auto;">
-                        </div>
-                    @endif
+                    <div class="text-center">
+                        <img src="{{ asset('dokumentasi/LOGO VLORA.png') }}" 
+                             alt="Vlora Nusantara Logo" 
+                             class="img-fluid"
+                             style="max-width: 400px; height: auto;">
+                    </div>
                 </div>
             </div>
         </div>
