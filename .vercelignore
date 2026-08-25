@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+tests
+phpunit.xml
+.editorconfig
+.env
+.env.example
+.gitattributes
+.gitignore
+README.md
+STRUKTUR_PROJECT.md
+Dokumentasi
